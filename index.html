@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CityGrill</title>
+    <link rel="stylesheet" href="./Styles/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Fugaz One' rel='stylesheet'>
+  </head>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#mainPage" onclick="closeNav()">ГЛАВНЫЙ</a>
+    <a href="#news" onclick="closeNav()">НОВОСТИ</a>
+    <a href="#rec" onclick="closeNav()">РЕКОМЕНДАЦИИ</a>
+    <a href="#gal" onclick="closeNav()">ГАЛЕРЕЯ</a>
+    <a href="#contact" onclick="closeNav()">КАК С НАМИ СВЯЗАТЬСЯ</a>
+  </div>
+  <body>
+  <div class="navbar">
+      <div class="nav">
+
+      </div>
+      <div class="logo">
+        <span
+                class="hamburger-menu"
+                style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <a href="#mainPage">City Grill</a>
+      </div>
+    </div>
+
+    <div id="mainPage" class="main">
+      <h1 id="logo">City Grill</h1>
+        <p>Ресторан (Ташкент)</p>
+        <p>Закроется сегодня в полночь</p>
+        <div class="btn">
+            <button type="button" name="" id="myBtn">Узнать цену</button>
+        </div>
+        <div class="picture">
+          <img src="./pictures/CityGrill.jpg" alt="">
+        </div>
+
+    </div>
+
+    <div id="news" class="news">
+      <div class="line"></div>
+      <br>
+      <h1>Новости</h1>
+      <div class="container news_cont1">
+        <div class="news_card">
+          <img src="./pictures/2022-07-05.jpg" alt="">
+          <br>
+          <h1>Опубликовано 6 июл. 2022 г.</h1>
+          <br>
+          <h2>Существует ли правильная прожарка стейка? Мы советуем довериться опыту и мастерству нашего шефа, который приготовит для вас идеальный стейк.</h2>
+          <br>
+          <p>☎️ 71 2334972</p>
+        </div>
+        <div class="news_card">
+          <img src="./pictures/2022-06-03.jpg" alt="">
+          <h1>Опубликовано 4 июн. 2022 г.</h1>
+          <br>
+          <h2>Steak "Diane"🥩</h2>
+          <br> <br> <br> <br>
+          <p>#CityGrillTashkent</p>
+          <br>
+          <p>☎️ 71 2334972</p>
+        </div>
+        <div class="news_card">
+          <img src="./pictures/2022-06-01.jpg" alt="">
+          <h1>Опубликовано 2 июн. 2022 г.</h1>
+          <br>
+          <h2>Business Lunch menu.</h2>
+          <br><br><br><br><br><br>
+          <p>☎️ 71 2334972</p>
+        </div>
+      </div>
+      <div class="container news_cont2">
+        <div class="news_card">
+          <img src="./pictures/2022-05-25.jpg" alt="">
+          <h1>Опубликовано 25 мая 2022 г.</h1>
+          <br>
+          <h2>Vegetarian food in our Mexican menu.</h2>
+          <br><br><br>
+          <p>☎️ 71 2334972</p>
+        </div>
+        <div class="news_card">
+          <img src="./pictures/2022-04-30.jpg" alt="">
+          <h1>Опубликовано 1 мая 2022 г.</h1>
+          <br>
+          <h2>Steak Filet mignon</h2>
+          <br><br><br>
+          <p>☎️ 71 2334972</p>
+        </div>
+        <div class="news_card">
+          <img src="./pictures/2022-04-31.jpg" alt="">
+          <h1>Опубликовано 1 мая 2022 г.</h1>
+          <br>
+          <h2>City Grill steak speciality: flank steak with potato, tomato and chimichurri sauce.</h2>
+          <br>
+          <p>☎️ 71 2334972</p>
+        </div>
+      </div>
+      <div class="container news_cont3">
+        <div class="news_card">
+          <img src="./pictures/2022-04-21.jpg" alt="">
+          <h1>Опубликовано 21 апр. 2022 г.</h1><br>
+          <h2>New York steak.</h2><br><br>
+          <p>#CityGrillTashkent</p><br>
+          <p>Shahrisabz st. 23</p>
+          <p>☎️ 71 2334972</p>
+        </div>
+        <div class="news_card">
+          <img src="./pictures/2022-04-19.jpg" alt="">
+          <h1>Опубликовано 19 апр. 2022 г.</h1><br>
+          <h2>Brunch</h2>
+          <h2>11.00 - 17.00</h2><br>
+          <p>#CityGrillTashkent</p><br>
+          <p>Shota Rustaveli st. 28</p>
+          <p>☎️ 71 2334972</p>
+        </div>
+        <div class="news_card">
+          <img src="./pictures/2022-04-18.jpg" alt="">
+          <h1>Опубликовано 19 апр. 2022 г.</h1><br>
+          <h2>Porterhouse steak</h2><br><br><br><br>
+          <p>#CityGrillTashkent</p>
+          <p>☎️ 71 2334972</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="rec" class="recommendation">
+      <div class="line"></div>
+      <br>
+      <h1>РЕКОМЕНДАЦИИ</h1>
+      <div class="container">
+        <div class="news recommendation">
+          <p>4 месяца назад</p><br>
+          <h3>Теплый салат с баклажанами был просто изумителен: хрустящий, сочный, идеальное сочетание всех ингредиентов - лучше салата я не пробовала!! Все остальное, заказанное нами, тоже было великолепно. Паста, буррито, кесадильи, тако - все было на высшем уровне. Ни одно блюдо из нами выбранных не разочаровало нас! Однозначно лучший ресторан гастрономической кухни во всем городе!</h3><br><br><br>
+          <h2>- Nasiba Z</h2>
+        </div>
+        <div class="news recommendation">
+          <p>4 месяца назад</p><br>
+          <h3>Душевный ресторан, очень вкусная кухня.</h3><br><br><br>
+          <h2>- Aziza I</h2>
+        </div>
+        <div class="news recommendation">
+          <p>4 месяца назад</p><br>
+          <h3>Место чистое, уютное. Салаты вкусные, блюда как и положено готовят очень долго, но на вкус средненько. Обслуживание очень хорошее - официантам 5 баллов. Малое место для парковки, но припарковаться можно. И самое главное есть детская площадка</h3><br><br><br>
+          <h2>- Михаил П</h2>
+        </div>
+      </div>
+    </div>
+
+    <div id="gal" class="gallery">
+      <div class="line"></div><br>
+      <h1>ГАЛЕРЕЯ</h1>
+      <div class="container">
+        <div class="news_card">
+          <img src="./pictures/pic1.jpg" alt="">
+        </div>
+        <div class="news_card">
+          <img src="./pictures/pic2.jpg" alt="">
+        </div>
+        <div class="news_card">
+          <img src="./pictures/pic3.jpg" alt="">
+        </div>
+
+
+      </div>
+      <div class="container">
+        <div class="news_card">
+          <img src="./pictures/pic4.jpg" alt="">
+        </div>
+        <div class="news_card">
+          <img src="./pictures/pic5.jpg" alt="">
+        </div>
+        <div class="news_card">
+          <img src="./pictures/pic6.jpg" alt="">
+        </div>
+      </div>
+      <div class="container">
+        <div class="news_card">
+          <img src="./pictures/pic7.jpg" alt="">
+        </div>
+        <div class="news_card">
+          <img src="./pictures/pic8.jpg" alt="">
+        </div>
+        <div class="news_card">
+          <img src="./pictures/pic9.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="contact">
+      <div class="line"></div>
+      <br><h1>КАК С НАМИ СВЯЗАТЬСЯ</h1>
+
+      <div class="contact">
+        <div class="container_footer">
+
+          <div class="call">
+            <h2>Контакты</h2>
+            <div class="btn">
+              <a href="tel: +99871-233-49-72"><button type="button" name="button">ПОЗВОНИТЬ</button></a>
+            </div><br>
+            <p>8 71 233 49 72</p>
+            <p>8 90 977 71 16</p>
+          </div>
+
+          <div class="adress">
+            <h2>Адрес</h2>
+            <div class="btn">
+              <a href="https://www.google.com/maps/dir//City+Grill/data=!4m8!4m7!1m0!1m5!1m1!1s0x38ae8ad687f7b1c7:0xcf58bb9acc4f67ca!2m2!1d69.280942!2d41.304755"><button type="button" name="button">Проложить Маршрут</button></a>
+            </div><br>
+            <p>23 Shahrisabz ko'chasi</p>
+            <p>Тошкент 100015, Узбекистан</p>
+          </div>
+
+          <div class="schedule">
+            <h2>Часы работы</h2><br>
+            <p>пн:	12:00–00:00</p>
+            <p>вт:	12:00–00:00</p>
+            <p>ср:	12:00–00:00</p>
+            <p>чт:	12:00–00:00</p>
+            <p>пт:	12:00–00:00</p>
+            <p>сб:	12:00–00:00</p>
+            <p>вс:	12:00–00:00</p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <div class="row">
+        <div class="column">
+          <label>
+            <input class="popup-input" name="name" type="text" placeholder="Имя">
+          </label>
+          <br>
+          <label>
+            <input class="popup-input" name="phone" type="number" placeholder="Номер телефона">
+          </label>
+          <br>
+          <label>
+            <input class="popup-input" name="email" type="email" placeholder="Электронная почта">
+          </label>
+          <button class="send-btn">Отправит</button>
+        </div>
+        <div class="column-2">
+          <span class="close">&times;</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "280px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+
+    const modal = document.getElementById("myModal");
+
+    const btn = document.getElementById("myBtn");
+
+    const span = document.getElementsByClassName("close")[0];
+
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+  </body>
+</html>
